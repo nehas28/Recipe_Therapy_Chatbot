@@ -1,3 +1,3 @@
 # Chatbot-group19
 
-https://prod.liveshare.vsengsaas.visualstudio.com/join?B261E2DF5A69555120C5A9C86FE3EBECF128
+Recipe Therapy chatbot made using HTML, CSS, Javascript, and OpenAI API. Key not included for security purposes, demo included in my design portfolio
