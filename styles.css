@@ -1,0 +1,225 @@
+<<<<<<< HEAD
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('cookie.jpg'); /*background*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.gif-container {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: 300px; 
+    height: auto; 
+    z-index: 3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff3e0;
+    padding: 5px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gif-container img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+/*Style Grandma Message container*/
+.speech-bubble {
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    background-color: #fff3e0;
+    border-radius: 15px;
+    padding: 15px;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #ffd54f;
+}
+
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #fff3e0;
+}
+/* Style ingredient and recipe containers */
+.container {
+    display: flex;
+    width: 80%;
+    margin-top: 400px; 
+}
+
+.checklist, .recipe {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    min-height: 200px;
+}
+
+.checklist {
+    background-color: #fff3e0;
+}
+
+.recipe {
+    background-color: #fff3e0;
+}
+
+.input-area {
+    margin-top: 20px;
+    margin-bottom: 7.5%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('cookie.jpg'); /*background*/
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.gif-container {
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    width: 300px; 
+    height: auto; 
+    z-index: 3;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff3e0;
+    padding: 5px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gif-container img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px; 
+}
+
+/*Style Grandma Message container*/
+.speech-bubble {
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    background-color: #fff3e0;
+    border-radius: 15px;
+    padding: 15px;
+    width: 50%;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 2;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #ffd54f;
+}
+
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #fff3e0;
+}
+/* Style ingredient and recipe containers */
+.container {
+    display: flex;
+    width: 80%;
+    margin-top: 400px; 
+}
+
+.checklist, .recipe {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+    width: 45%;
+    min-height: 200px;
+}
+
+.checklist {
+    background-color: #fff3e0;
+}
+
+.recipe {
+    background-color: #fff3e0;
+}
+
+.input-area {
+    margin-top: 20px;
+    margin-bottom: 7.5%;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+>>>>>>> dc79ae1 (Initial commit)
